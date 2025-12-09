@@ -8,6 +8,14 @@ The journal is published by the University of Calgary and was selected because o
 The file formatting should follow the most current TEI guidelines from https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html
 
 ---
+# Process Notes
+Currently, I am downloading the PDFs from the website and using Yale's Clarity AI platform, which uses GPT4-0, to convert the files to .xml with TEI encoding. There is a program called GROBID that should allow PDFs to more reliably be converted to TEI docs, but I have been unable to run it properly on my computer. 
+
+The two files I've already converted have been double checked against the original articles.
+
+I plan to comb through and code for concepts/authors/etc., and then use Leafwriter to streamline the process. 
+
+---
 # Open Issues
 - Which LLM to use? Paid version?
 - What kind of encoding categories are we looking for?
